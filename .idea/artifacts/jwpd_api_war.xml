@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jwpd-api:war">
+    <output-path>$PROJECT_DIR$/jwpd-api/target</output-path>
+    <root id="archive" name="jwpd-api.war">
+      <element id="artifact" artifact-name="jwpd-api:war exploded" />
+    </root>
+  </artifact>
+</component>

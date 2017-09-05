@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jwpd.iml" filepath="$PROJECT_DIR$/jwpd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwpd-api/jwpd-api.iml" filepath="$PROJECT_DIR$/jwpd-api/jwpd-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwpd-common/jwpd-common.iml" filepath="$PROJECT_DIR$/jwpd-common/jwpd-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwpd-dao/jwpd-dao.iml" filepath="$PROJECT_DIR$/jwpd-dao/jwpd-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwpd-service/jwpd-service.iml" filepath="$PROJECT_DIR$/jwpd-service/jwpd-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwpd-task/jwpd-task.iml" filepath="$PROJECT_DIR$/jwpd-task/jwpd-task.iml" />
+    </modules>
+  </component>
+</project>
