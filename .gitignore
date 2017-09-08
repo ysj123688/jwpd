@@ -1,0 +1,11 @@
+jwpd-api/target/
+jwpd-api/logs/
+
+jwpd-common/target/
+jwpd-common/logs/
+jwpd-dao/target/
+jwpd-dao/logs/
+jwpd-service/target/
+jwpd-service/logs/
+jwpd-task/target/
+jwpd-task/logs/
