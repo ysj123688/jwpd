@@ -4,6 +4,8 @@ import com.zjut.dao.statistic.HourAverageValueDao;
 import com.zjut.model.AverageValue;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -44,5 +46,11 @@ public class HourAverageValueDaoTest {
         averageValue.setAverageVaule(12);
         averageValue.setCreatedTime(new Date());
         hourAverageValueDao.insert(averageValue);
+    }
+
+    @Test
+    public void logTest(){
+        Logger logger = LoggerFactory.getLogger(HourAverageValueDaoTest.class);
+        logger.error("logger test.xml");
     }
 }
