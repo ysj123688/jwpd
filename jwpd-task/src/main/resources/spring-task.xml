@@ -8,8 +8,16 @@
     <!-- 启用注解 -->
     <context:annotation-config />
 
-    <context:component-scan base-package="com.zjut">
+    <context:component-scan base-package="com.zjut.task">
     </context:component-scan>
-    <import resource="classpath*:spring/spring-mybatis.xml"></import>
+
+    <import resource="classpath*:spring-service.xml"></import>
+
+    <bean id = "taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value = "5"></property>
+        <property name = "maxPoolSize" value="10"></property>
+        <property name="queueCapacity" value="25"></property>
+    </bean>
+
 
 </beans>

@@ -11,5 +11,33 @@
 
     <artifactId>jwpd-task</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zjut</groupId>
+            <artifactId>jwpd-dao</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zjut</groupId>
+            <artifactId>jwpd-service</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>

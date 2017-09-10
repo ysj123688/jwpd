@@ -23,7 +23,7 @@
     <context:component-scan base-package="com.zjut.controller">
     </context:component-scan>
 
-    <import resource="classpath*:spring-mybatis.xml"></import>
+    <import resource="classpath*:spring-service.xml"></import>
 
 
 

@@ -1,3 +1,4 @@
+# 忽略临时文件和日志文件
 jwpd-api/target/
 jwpd-api/logs/
 

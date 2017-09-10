@@ -1,6 +1,5 @@
 package com.zjut.service;
 
-import com.zjut.dao.statistic.HourAverageValueDao;
 import com.zjut.model.AverageValue;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +13,7 @@ import java.util.Date;
  * @author yuanweipeng
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring-mybatis.xml")
+@ContextConfiguration("classpath:spring-service.xml")
 public class HourAverageServiceTest {
 
     @Autowired
